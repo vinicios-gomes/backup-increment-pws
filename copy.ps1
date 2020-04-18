@@ -4,12 +4,6 @@
 ## Se o arquivo tiver o mesmo nome altera a inicial para a data de execução do script
 ## No final copia o arquivo para o destino.
 
-##          ######  ######  ######  ######    #  #####  #####          ##
-##          #    #  #    #  #       #    #    #  #      #   #          ##
-##          ######  ######  #  ###  ######    #  #####  #####          ##
-##          #       #    #  #    #  #     #   #      #  #   #          ##
-##          #       #    #  ######  #      #  #  #####  #   #          ##
-
 $thisDateAndTime = ("{0:yyyy-MM-dd}" -f (Get-Date))
 $sourcePath = "C:\Users\suporte\Downloads"
 $destinationPath = "C:\or"
